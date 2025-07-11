@@ -1,0 +1,98 @@
+{
+  "kartu_studi": [
+    {
+      "id": "9GOzq2Qx9AveRkqBLfP7",
+      "mahasiswaId": "MOG82zxJ6rPrRpxSXlqTBBY03sj2",
+      "mataKuliahId": "s3kSrsGAe08Vfomkq2Ap",
+      "semester": 2,
+      "status": "Aktif",
+      "tahunAkademik": "2025"
+    },
+    {
+      "id": "m6mAAvyIBx5lIWBva20I",
+      "mahasiswaId": "MOG82zxJ6rPrRpxSXlqTBBY03sj2",
+      "mataKuliahId": "gB7X1Z1FyySrv6lZFufo",
+      "semester": 1,
+      "status": "Aktif",
+      "tahunAkademik": "2025"
+    }
+  ],
+  "matakuliah": [
+    {
+      "id": "7jcVzSDUOQUKPUSi94Qi",
+      "dosen": "Hendry",
+      "jadwal": "Senin, 13-15",
+      "kode": "TC011",
+      "nama": "Dasar-Dasar Pemrograman",
+      "semester": 1,
+      "sks": 3
+    },
+    {
+      "id": "gB7X1Z1FyySrv6lZFufo",
+      "dosen": "Ardhani Pratama",
+      "jadwal": "Senin, 07-10",
+      "kode": "TC001",
+      "nama": "Dasar-Dasar Pemrograman",
+      "semester": 1,
+      "sks": 3
+    },
+    {
+      "id": "s3kSrsGAe08Vfomkq2Ap",
+      "dosen": "Ardhani Pratama",
+      "jadwal": "Rabu, 15-17",
+      "kode": "TC002",
+      "nama": "Algoritma dan Struktur Data",
+      "semester": 2,
+      "sks": 4
+    }
+  ],
+  "transkrip_nilai": [
+    {
+      "id": "LvkjMNOKAxPP7Lvwskiz",
+      "mahasiswaId": "MOG82zxJ6rPrRpxSXlqTBBY03sj2",
+      "mataKuliahId": "s3kSrsGAe08Vfomkq2Ap",
+      "nilai": "A",
+      "angka": 90,
+      "semester": 2,
+      "tahunAkademik": "2025"
+    },
+    {
+      "id": "QVlo1Sa3oSSMaBP2XSUB",
+      "mahasiswaId": "MOG82zxJ6rPrRpxSXlqTBBY03sj2",
+      "mataKuliahId": "gB7X1Z1FyySrv6lZFufo",
+      "nilai": "C",
+      "angka": 60,
+      "semester": 1,
+      "tahunAkademik": "2025"
+    }
+  ],
+  "users": [
+    {
+      "id": "4CMAdhqFqpMTJ6EHw9Sqm98b6qk1",
+      "email": "tes@kaprogdi.com",
+      "nama": "Gatot",
+      "nim": "",
+      "nip": "67456",
+      "password": "",
+      "role": "KAPROGDI"
+    },
+    {
+      "id": "MOG82zxJ6rPrRpxSXlqTBBY03sj2",
+      "email": "tes@mahasiswa.com",
+      "nama": "Cornelius Yoga",
+      "nim": "672022204",
+      "nip": "",
+      "password": "",
+      "role": "MAHASISWA"
+    },
+    {
+      "id": "nno2ucSeo2bGD4EMBItzsoCvGzx2",
+      "email": "tes@dosen.com",
+      "nama": "Ardhani Pratama",
+      "nim": "",
+      "nip": "67123",
+      "password": "",
+      "role": "MAHASISWA"
+    }
+  ]
+}

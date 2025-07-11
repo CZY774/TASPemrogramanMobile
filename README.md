@@ -91,7 +91,7 @@ Aplikasi mobile untuk manajemen perkuliahan yang dibangun dengan Jetpack Compose
 
 ## Struktur Database
 
-Aplikasi ini menggunakan Firebase Firestore dengan struktur koleksi sebagai berikut:
+Aplikasi ini menggunakan Firebase Firestore dengan struktur [koleksi](https://github.com/CZY774/TASPemrogramanMobile/blob/master/firebase-export.json) sebagai berikut:
 
 ### 1. users
 Menyimpan data pengguna (Mahasiswa, Dosen, dan Kaprodi).

@@ -89,6 +89,48 @@ Aplikasi mobile untuk manajemen perkuliahan yang dibangun dengan Jetpack Compose
 
 5. Jalankan aplikasi di emulator atau perangkat fisik
 
+## Struktur Database
+
+Aplikasi ini menggunakan Firebase Firestore dengan struktur koleksi sebagai berikut:
+
+### 1. users
+Menyimpan data pengguna (Mahasiswa, Dosen, dan Kaprodi).
+- `id` (string): ID unik pengguna
+- `email` (string): Email pengguna
+- `nama` (string): Nama lengkap
+- `nim` (string): Nomor Induk Mahasiswa (hanya untuk mahasiswa)
+- `nip` (string): Nomor Induk Pegawai (hanya untuk dosen/kaprodi)
+- `role` (string): Peran pengguna (MAHASISWA/DOSEN/KAPROGDI)
+
+### 2. matakuliah
+Menyimpan data mata kuliah.
+- `id` (string): ID unik mata kuliah
+- `kode` (string): Kode mata kuliah
+- `nama` (string): Nama mata kuliah
+- `sks` (number): Jumlah SKS
+- `dosen` (string): Nama dosen pengampu
+- `jadwal` (string): Jadwal perkuliahan
+- `semester` (number): Semester saat mata kuliah diambil
+
+### 3. kartu_studi
+Mencatat mata kuliah yang diambil mahasiswa.
+- `id` (string): ID unik entri
+- `mahasiswaId` (string): ID mahasiswa
+- `mataKuliahId` (string): ID mata kuliah
+- `semester` (number): Semester pengambilan
+- `tahunAkademik` (string): Tahun akademik
+- `status` (string): Status pengambilan (Aktif/Tidak Aktif)
+
+### 4. transkrip_nilai
+Menyimpan nilai mahasiswa untuk setiap mata kuliah.
+- `id` (string): ID unik entri
+- `mahasiswaId` (string): ID mahasiswa
+- `mataKuliahId` (string): ID mata kuliah
+- `nilai` (string): Nilai huruf (A/B/C/D/E)
+- `angka` (number): Nilai angka
+- `semester` (number): Semester pengambilan
+- `tahunAkademik` (string): Tahun akademik
+
 ## Struktur Project
 
 ```
